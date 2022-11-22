@@ -1,2 +1,2 @@
 # Data_Modeling_with_Postgres
- Data modeling with Postgres and build an ETL pipeline using Python
+ In this project we will build an ETL pipeline using Python for Data modeling with Postgres.
