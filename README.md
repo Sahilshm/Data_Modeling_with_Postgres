@@ -5,7 +5,7 @@ The purpose of this project is to create a Postgres database that simplifies the
 
 ## Database Schema Design
 * The database schema used for this project is the star schema. 
-* It consists of one Fact table (song_play) and four Dimension Tables (users, songs artists and time). 
+* It consists of one Fact table (songplays) and four Dimension Tables (users, songs, artists and time). 
 * This schema design helps with simplifying complex queries and allows for greater performance when reading data from the database.
 
 ## Postgres Database
