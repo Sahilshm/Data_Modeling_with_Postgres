@@ -5,7 +5,7 @@ The purpose of this project is to create a Postgres database that simplifies the
 
 ## Database Schema Design
 * The database schema used for this project is the star schema. 
-* It consists of one Fact table (song_play) and four Dimension Tables (users, songs artists and time). 
+* It consists of one Fact table (songplays) and four Dimension Tables (users, songs, artists and time). 
 * This schema design helps with simplifying complex queries and allows for greater performance when reading data from the database.
 
 ## Postgres Database
@@ -35,9 +35,9 @@ This file can be used for testing the data in Postgres db once the pipeline fini
 ###### Requirements
 `Python 3`
 `Postgresql`
-To drop or create the tables, ensure you are in the project's directory then run the following command:
+###### To drop or create the tables, ensure you are in the project's directory then run the following command:
 
 `python create_tables.py`
-To run the ETL pipeline that will extract data from the datasets and store them in the tables simply run:
+###### To run the ETL pipeline that will extract data from the datasets and store them in the tables simply run:
 
 `python etl.py`
