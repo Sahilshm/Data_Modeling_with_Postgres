@@ -35,9 +35,9 @@ This file can be used for testing the data in Postgres db once the pipeline fini
 ###### Requirements
 `Python 3`
 `Postgresql`
-To drop or create the tables, ensure you are in the project's directory then run the following command:
+###### To drop or create the tables, ensure you are in the project's directory then run the following command:
 
 `python create_tables.py`
-To run the ETL pipeline that will extract data from the datasets and store them in the tables simply run:
+###### To run the ETL pipeline that will extract data from the datasets and store them in the tables simply run:
 
 `python etl.py`
