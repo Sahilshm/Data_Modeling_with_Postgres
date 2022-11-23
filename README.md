@@ -33,7 +33,9 @@ This file can be used for testing the data in Postgres db once the pipeline fini
 
 ## Running Scripts
 ###### Requirements
-`Python 3`
+`Python3`
+`SQL`
+`Docker`
 `Postgresql`
 ###### To drop or create the tables, ensure you are in the project's directory then run the following command:
 
