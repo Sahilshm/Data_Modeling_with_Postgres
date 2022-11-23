@@ -1,23 +1,19 @@
 # Data Modeling with Postgres Project
 
 ## Purpose of the project
----
 The purpose of this project is to create a Postgres database that simplifies the querying of data on songs and user activity for the analytics team.
 
 ## Database Schema Design
----
 * The database schema used for this project is the star schema. 
 * It consists of one Fact table (song_play) and four Dimension Tables (users, songs artists and time). 
 * This schema design helps with simplifying complex queries and allows for greater performance when reading data from the database.
 
 ## Postgres Database
----
 The postgres db was set on top of Docker.
 Docker needs to be set up before executing the pipeline and then connections needs to updated accordingly.
 Postgres:Alpine was used for this project.
 
 ## File Structure
----
 The files in the repository are as follows:
 
 ###### sql_queries.py
@@ -36,7 +32,6 @@ Execute this file initially to install all pre-requisite libraries.
 This file can be used for testing the data in Postgres db once the pipeline finishes.
 
 ## Running Scripts
----
 ###### Requirements
 `Python 3`
 `Postgresql`
